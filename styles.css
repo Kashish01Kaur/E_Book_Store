@@ -1,0 +1,158 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .flex-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 50px 0px 50px;
+ 
+  }
+  .flex-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:0em;
+    
+}
+  .flex-top-item{
+    flex:1;
+    margin: 5px 50px 20px 50px;
+    align-items: center;
+ 
+  }
+  .top{
+    background-color: #435259;
+  }
+ 
+  .bigheading{
+    font-size: 3em;
+  }
+ .emailbar{
+    padding: 6px;
+ }
+ .beigebutton{
+    background-color:#AB9767;
+    border:0px;
+    padding: 6px;
+    color: white;
+ }
+ .flex-top-item p{
+    color:white;
+ }
+ .flex-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:2em;   
+    background-color: #F5F4F0;
+  }
+  .flex-left-item{
+    flex:1;
+    margin: 5px 20px 20px 20px;
+  }
+  .flex-center-item{
+    flex:2;
+    margin: 5px 20px 20px 20px;
+  }
+ .verttext{
+    transform: rotate(-90deg);
+    color:#AB9767;
+    
+ }
+ .flex-col{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1em;
+ }
+ .square {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    color: #E6BE8A;;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .bookauthor{
+    color:black;
+    display: flex;
+    align-items:center;
+    gap:2em;
+  }
+  
+  .bottom{
+    background-color: #EBEAE6;
+    margin-top: 40px;
+  }
+  
+  .flex-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1em;
+    margin: 10px 30px 50px 50px;
+  }
+  .flex-bottom-item{
+    flex:1;
+    text-align:left;
+  }
+
+  
+  .flex-bottom-item img{
+    width: 100px;
+    height:150px;
+  }
+  .bottom{
+    margin: 50px 30px 50px 50px;
+  }
+  .bgtext{
+    color:#647C90;
+  }
+  body{
+    border-bottom: 10px solid black;
+    border-left: 5px solid black;
+    background-color: #EBEAE6;
+    margin: 0;
+  }
+  .bottom p{
+    margin: 10px 30px 50px 50px;
+    color: #AB9767;
+  }
+  .beigetext{
+    color: #AB9767;
+ }
+
+ @media only screen and (max-width: 600px) {
+  .flex-nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .verttext{
+    transform: rotate(360deg);
+  }
+}
+
+
+ 
+
